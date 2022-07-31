@@ -21,6 +21,7 @@ collections:
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Description, name: description, widget: string }
-          - { label: Author, name: author, widget: string }
+          - { label: Hero Banner Title, name: heroBannerTitle, widget: string }
+          - { label: Hero Banner Sub Title, name: heroBannerSubtitle, widget: string }
     editor:
       preview: false

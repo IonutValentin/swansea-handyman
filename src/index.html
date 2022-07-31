@@ -4,25 +4,128 @@ path: home
 description: sunt un tigan borat
 author: Janica de la Craiova
 ---
+<!-- Hero Banner -->
+<div class="hero-banner">
+  <div class="hero-img-wrapper">
+      <img class="hero-img" src="./static/img/hero-img.png" alt="hero">
+  </div>
+  <div class="hero-banner-text-wrapper">
+      <div class="text-wrapper">
+          <h1 class="banner-title">{{homepage.heroBannerTitle}} <br> <span style="color: #fcc20d">Provider</span></h1>
+          <p class="banner-desc">{{homepage.heroBannerSubtitle}}</p>
+          <button class="cta-btn">Get a Quote</button>
+      </div>
+  </div>
+</div><!-- END Hero Banner -->
 
-<div class="container mx-auto lg:h-screen flex flex-col justify-center items-center">
-  <h1>
-    Welcome to
-    <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
-      {{homepage.title}}
-    </strong>
-  </h1>
+<main>
+  <!-- About Section -->
+  <section class="about-me">
+    <div class="column about-me-text">
+      <h2>A Local Handyman <br />You Can Trust</h2>
+      <p class="text_small">I will always do my very best to complete jobs as fast as possible to make fees as fair and
+        affordable as they
+        can be for my customers. My reputation and the trust and satisfaction of my customers is extremely important to
+        me.</p>
+      <p class="text_small">I understand people often need work done urgently and I can often get your job booked in for
+        within 24 hours,
+        meaning your problem is solved quickly and efficiently.</p>
+      <p class="text_small">If you contact me today by phone, you will get a quotation straight away and I can often
+        book you in there and
+        then.</p>
+      <p class="text_small">I look forward to speaking with you soon.</p>
+    </div>
+    <div class="column about-me-image">
+      <img class="image-elem" src="./static/img/handyman-pic-01.jpg" alt="">
+    </div>
+  </section><!-- END About Section -->
 
-  <p>
-    <abbr title="netlify cms, eleventy, alpine js & tailwind css">NEAT</abbr>
-    Starter Template. Get Started by editing.
-    <code class="bg-gray-100 text-blue-800 p-1">/index.njk</code>
-  </p>
+  <!-- Services Section -->
+  <section class="service-section">
+    <span class="small-title">Our services</span>
+    <h2 class="services-title">Solutions For All Your <br> Home Projects</h2>
+    <p class="lead-text"></p>
+    <ul class="services-list">
+      <li class="services-list-item">
+        <div class="item-wrapper">
+          <img src="./static/img/service-00.svg" alt="" />
+          <p>Plumbing</p>
+        </div>
+      </li>
+      <li class="services-list-item">
+        <div class="item-wrapper">
+          <img src="./static/img/service-00.svg" alt="" />
+          <p>Bricklaying</p>
+        </div>
+      </li>
+      <li class="services-list-item">
+        <div class="item-wrapper">
+          <img src="./static/img/service-00.svg" alt="" />
+          <p>Joinery</p>
+        </div>
+      </li>
+      <li class="services-list-item">
+        <div class="item-wrapper">
+          <img src="./static/img/service-00.svg" alt="" />
+          <p>Gardening</p>
+        </div>
+      </li>
+      <li class="services-list-item">
+        <div class="item-wrapper">
+          <img src="./static/img/service-00.svg" alt="" />
+          <p>Decorating &amp; Painting</p>
+        </div>
+      </li>
+      <li class="services-list-item">
+        <div class="item-wrapper">
+          <img src="./static/img/service-00.svg" alt="" />
+          <p>Tiling</p>
+        </div>
+      </li>
+      <li class="services-list-item">
+        <div class="item-wrapper">
+          <img src="./static/img/service-00.svg" alt="" />
+          <p>Fitting</p>
+        </div>
+      </li>
+      <li class="services-list-item">
+        <div class="item-wrapper">
+          <img src="./static/img/service-00.svg" alt="" />
+          <p>Home Maintenance</p>
+        </div>
+      </li>
+    </ul>
+  </section><!-- END Services Section -->
 
-  <p>
-    {{homepage.description}} <br/>
-    <b>Author:</b> {{homepage.author}}
-  </p>
+  <!-- Special Offer Banner -->
+  <section class="fixed-banner">
+    <div class="dark-layout"></div>
+    <div class="text-block">
+        <h1 class="fixed-banner-title">CALL US TODAY FOR A FREE CONSULTATION OR FOR A <br> SCHEDULED APPOINTMENT</h1>
+        <button class="cta-btn">CALL (123) 456 7890</button>
+    </div>
+  </section><!-- END Special Offer Banner -->
 
-  {% include "./_includes/partials/content.html" %}
-</div>
+  <!-- How It Works Section -->
+  <section class="how-it-works">
+    <span class="small-title">How it Works</span>
+    <h2 class="services-title">Follow 3 easy steps</h2>
+    <div class="wrapper">
+        <div class="box">
+            <img src="./static/img/step-01.png" alt="">
+            <h3>Step 1: Contact Us</h3>
+            <p>Call or email us. We have team members waiting for your call!</p>
+        </div>
+        <div class="box">
+            <img src="./static/img/step-02.png" alt="">
+            <h3>Step 2: Discuss Details</h3>
+            <p>Let our specialist know all of the details of your project.</p>
+        </div>
+        <div class="box">
+            <img src="./static/img/step-03.png" alt="">
+            <h3>Step 3: Schedule</h3>
+            <p>Schedule a time for our specialist to start making your project a reality.</p>
+        </div>
+    </div>
+  </section><!-- END How It Works Section -->
+</main>
