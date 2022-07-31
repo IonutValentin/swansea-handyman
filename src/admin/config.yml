@@ -23,5 +23,8 @@ collections:
           - { label: Description, name: description, widget: string }
           - { label: Hero Banner Title, name: heroBannerTitle, widget: string }
           - { label: Hero Banner Sub Title, name: heroBannerSubtitle, widget: string }
+          - { label: About Me Title, name: aboutMetitle, widget: string }
+          - { label: About Me Description, name: aboutMeDescription, widget: string }
+          - { label: About Me Image, name: aboutMeImage, widget: image, default: "/static/img/handyman-pic-01.jpg" }
     editor:
       preview: false

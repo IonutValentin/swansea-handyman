@@ -145,11 +145,12 @@ h5 {font-size: var(--h5-lg)}
   max-width: 500px;
 }
 
-.about-me-text h2 {
+.about-me-text .about-me-title {
   margin: 0 0 20px 0;
   font-size: var(--h2-lg);
   border-left: 6px solid #fcc20d;
   padding-left: 30px;
+  max-width: 370px;
 }
 
 .about-me-text p {
